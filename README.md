@@ -1,0 +1,1 @@
+Opencore_Lenovo_Y50-70_UHD
