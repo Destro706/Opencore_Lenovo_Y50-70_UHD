@@ -8,6 +8,7 @@
 
 ### Updated to OpenCore 0.6.5
 ### Updated kexts
+### merged and added missing keys to Config.plist
 ### Edited Config.plist to match new Whatevergreen.kext and enable UHD Screen
 ### enabled Filevault 2
 
@@ -51,6 +52,5 @@ Notes:
 Link: https://github.com/corpnewt/GenSMBIOS <br>
 - For those having issues with the display color, for some users the display color have a light brownish tint. <br>
 In order to fix this you need to calibrate your display colors, by going into display settings from system preferences, then click calibrate from the color tab.
-- If UHD still have Minor Glitches, rename Config UHD 2.plist to Config.plist and try that one
 - DVMT prealloc has to be set to 128mb
 
