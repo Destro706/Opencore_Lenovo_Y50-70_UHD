@@ -6,8 +6,8 @@
 
 
 
-### Updated to OpenCore 0.6.4
-### Updated Whatevergreen.kext
+### Updated to OpenCore 0.6.5
+### Updated kexts
 ### Edited Config.plist to match new Whatevergreen.kext and enable UHD Screen
 ### enabled Filevault 2
 
