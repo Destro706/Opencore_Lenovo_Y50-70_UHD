@@ -6,7 +6,7 @@
 
 
 
-### Updated to OpenCore 0.6.5
+### Updated to OpenCore 0.6.6
 ### Updated kexts
 ### merged and added missing keys to Config.plist
 ### Edited Config.plist to match new Whatevergreen.kext and enable UHD Screen
