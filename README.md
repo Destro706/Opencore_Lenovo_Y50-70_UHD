@@ -16,7 +16,8 @@
   - Intel Core i7-4710HQ
   - Intel HD4600 integrated GPU
   - Nvidia GTX 860M 4GB (unsupported)
-  - 16GB DDR4 Ram  
+  - 16GB DDR4 Ram
+  - BCM94350ZAE (WiFi / Bluetooth)
  
  Before updating any kext create pendrive copy of actual EFI so if something wont
  work you can restore it.
@@ -27,6 +28,10 @@
  - built-in keyboard
  - built-in trackpad (multi gestures)
  - HDMI video/audio with hotplug
+ - WiFi through BCM94350ZAE
+ - Bluetooth through BCM94350ZAE
+ - Handoff
+ - Airdrop
  - AirPlay mirroring to AppleTV
  - native USB3
  - native audio with AppleHDA
@@ -41,7 +46,7 @@
  - Sleep/Wake
  - Auto Brightness Sensors
  - iMessage & Facetime
- - Brightness keys on keyboard (Fixed by migrating from ApplePS2SmartTouchPad.kext to VoodooPS2Controller.kext)
+ - Brightness keys on keyboard
  
  
  
@@ -50,7 +55,9 @@
 Notes: 
 - In order to use iMessage and Facetime you need to change your SMBIOS, with GenSMBIOS.<br>
 Link: https://github.com/corpnewt/GenSMBIOS <br>
-- For those having issues with the display color, for some users the display color have a light brownish tint. <br>
-In order to fix this you need to calibrate your display colors, by going into display settings from system preferences, then click calibrate from the color tab.
+- updated SMBIOS to macbookpro11,4, Thanks to geekycoder7
+- added BCM94350ZAE as it was cheap (round about 5€ at ebay), fully working, need unlocked BIOS for whitelisting and needed to set ASPM for PCI Express Slot 2 to L0 in BIOS to solve Quirks
 - DVMT prealloc has to be set to 128mb
+- after updating to OC 0.6.6 you need to reset NVRAM
+  I needed to rename bootmgfw.efi in EFI/MICROSOFT to bootmgfw1.efi once, so that OC is detected. After that I renamed back and with new OC it shouldn't be the case in future
 
