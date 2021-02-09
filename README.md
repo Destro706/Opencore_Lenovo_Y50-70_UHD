@@ -15,6 +15,7 @@
   - Nvidia GTX 860M 4GB (unsupported)
   - 16GB DDR4 Ram
   - BCM94350ZAE (WiFi / Bluetooth)
+  - Realtek Cardreader
  
  Before updating any kext create pendrive copy of actual EFI so if something wont
  work you can restore it.
@@ -31,6 +32,7 @@
  - Airdrop
  - AirPlay mirroring to AppleTV
  - native USB3
+ - Realtek Cardreader
  - native audio with AppleHDA
  - built-in mic
  - built-in camera
