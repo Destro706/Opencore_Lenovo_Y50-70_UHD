@@ -6,11 +6,8 @@
 
 
 
-### Updated to OpenCore 0.6.5
+### Updated to OpenCore 0.6.6
 ### Updated kexts
-### merged and added missing keys to Config.plist
-### Edited Config.plist to match new Whatevergreen.kext and enable UHD Screen
-### enabled Filevault 2
 
 **Specs:**
   - Intel Core i7-4710HQ
@@ -47,7 +44,7 @@
  - Auto Brightness Sensors
  - iMessage & Facetime
  - Brightness keys on keyboard
- 
+ - Filevault 2
  
  
 
