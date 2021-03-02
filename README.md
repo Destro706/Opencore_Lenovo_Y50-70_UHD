@@ -15,7 +15,7 @@
   - Nvidia GTX 860M 4GB (unsupported)
   - 16GB DDR4 Ram
   - BCM94350ZAE (WiFi / Bluetooth)
-  - Realtek Cardreader
+  - Realtek Cardreader 
  
  Before updating any kext create pendrive copy of actual EFI so if something wont
  work you can restore it.
@@ -32,10 +32,10 @@
  - Airdrop
  - AirPlay mirroring to AppleTV
  - native USB3
- - Realtek Cardreader
+ - Realtek Cardreader (thx to geekycoder7 for fixing/adding)
  - native audio with AppleHDA
  - built-in mic
- - built-in camera
+ - built-in camer
  - native power management
  - battery status
  - backlight controls with smooth transitions, save/restore across restart
@@ -55,7 +55,7 @@ Notes:
 - In order to use iMessage and Facetime you need to change your SMBIOS, with GenSMBIOS.<br>
 Link: https://github.com/corpnewt/GenSMBIOS <br>
 - updated SMBIOS to macbookpro11,4, Thanks to geekycoder7
-- added BCM94350ZAE as it was cheap (round about 5€ at ebay), fully working, need unlocked BIOS for whitelisting and needed to set ASPM for PCI Express Slot 2 to L0 in BIOS to solve Quirks
+- added BCM94350ZAE as it was cheap (round about 5€ at ebay), fully working, need unlocked BIOS for whitelisting and needed to set ASPM for PCI Express Slot 2 to DISABLED in BIOS to solve Quirks
 - DVMT prealloc has to be set to 128mb
 - after updating to OC 0.6.6 you need to reset NVRAM
   I needed to rename bootmgfw.efi in EFI/MICROSOFT to bootmgfw1.efi once, so that OC is detected. After that I renamed back and with new OC it shouldn't be the case in future
