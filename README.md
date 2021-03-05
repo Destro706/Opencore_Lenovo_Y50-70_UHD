@@ -6,8 +6,10 @@
 
 
 
-### Updated to OpenCore 0.6.6
+### Updated to OpenCore 0.6.7
 ### Updated kexts
+### fixed Audio sometimes doesn't work after sleep (changed ALCID)
+### various bug fixes and cleanup
 
 **Specs:**
   - Intel Core i7-4710HQ
