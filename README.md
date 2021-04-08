@@ -6,7 +6,7 @@
 
 
 
-### Updated to OpenCore 0.6.7
+### Updated to OpenCore 0.6.8
 ### Updated kexts
 ### fixed Audio sometimes doesn't work after sleep (changed ALCID)
 ### various bug fixes and cleanup
